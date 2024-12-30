@@ -66,6 +66,7 @@ Durante o desenvolvimento deste projeto, aprimorei minhas habilidades em:
 ## 🎥 Demonstração  
 
 ### 📽 Vídeo do App em Execução  
+[Link para o vídeo de demonstração](https://github.com/user-attachments/assets/aef2c839-bc02-4cab-8249-c45f8bd7c623)
 
 <p align="center">
   <video width="400" controls>
