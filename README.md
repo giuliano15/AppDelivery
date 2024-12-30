@@ -95,6 +95,23 @@ Durante o desenvolvimento deste projeto, aprimorei minhas habilidades em:
 
 ## 🔄 Como Executar o Projeto  
 
+## 🗺️ **Configuração da API do Google Maps**
+
+Para utilizar o **Google Maps** em seu aplicativo, siga as instruções abaixo:
+
+1. **Obtenha a chave da API**:
+   - Acesse o [Google Cloud Console](https://console.cloud.google.com/) e crie um projeto.
+   - Habilite a API **Maps SDK for Android**.
+   - Gere a **chave de API**.
+
+2. **Inserir a chave da API no aplicativo**:
+   - Abra o arquivo `res/values/secrets.xml` em seu projeto.
+   - Adicione a seguinte linha, substituindo `"YOUR_API_KEY"` pela sua chave real:
+
+   ```xml
+   <string name="maps_api_key">YOUR_API_KEY</string>
+   ```
+
 1. Clone o repositório:  
 
    ```bash

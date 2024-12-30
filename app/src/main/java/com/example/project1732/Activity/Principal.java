@@ -283,8 +283,11 @@ public class Principal extends BaseActivity {
                 // Define o preço de entrega global usando um singleton (TaxaDelivery)
                 TaxaDelivery.getInstance().setGlobalPrice(globalPrice);
 
+                //insira sua api do Google Maps
+                String apiKey = getString(R.string.maps_api_key);
+
                 // Se quiser usar um método externo para calcular o tempo de viagem, descomente a linha abaixo e adicione sua chave de API do Google:
-                 getTravelTime("AIzaSyBjK27y-ULQLvni5T3kRz7N1GU6mQdRmu4", userLocation, storeLocation);
+                 getTravelTime(apiKey, userLocation, storeLocation);
 
                 // Atualiza a UI com as informações de distância, preço e tempo estimado
                 updateUI(distance, globalPrice, time);
