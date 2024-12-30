@@ -69,7 +69,7 @@ Durante o desenvolvimento deste projeto, aprimorei minhas habilidades em:
 
 <p align="center">
   <video width="400" controls>
-    <source src="https://user-images.githubusercontent.com/.../video.mp4" type="video/mp4">
+    <source src="https://github.com/user-attachments/assets/aef2c839-bc02-4cab-8249-c45f8bd7c623" type="video/mp4">
     Seu navegador não suporta a exibição de vídeos.
   </video>
 </p>  
@@ -97,7 +97,7 @@ Durante o desenvolvimento deste projeto, aprimorei minhas habilidades em:
 1. Clone o repositório:  
 
    ```bash
-   git clone https://github.com/seuusuario/AppDelivery.git
+   git clone https://github.com/giuliano15/AppDelivery.git
    ```  
 
 2. Abra o projeto no Android Studio.  
@@ -110,8 +110,8 @@ Durante o desenvolvimento deste projeto, aprimorei minhas habilidades em:
 
 Se você se interessou pelo projeto ou deseja discutir ideias de desenvolvimento Android:  
 
-- **LinkedIn:** [Seu Nome](https://linkedin.com/in/seunome)  
-- **E-mail:** seuemail@exemplo.com  
+- **LinkedIn:** [Giuliano Rodrigues](https://linkedin.com/in/giulrodrigues)  
+- **E-mail:** giulsilva@hotmail.com
 
 Agradeço por explorar este projeto! Espero que ele inspire novas ideias e contribua para sua jornada no desenvolvimento Android. 🚀  
 
