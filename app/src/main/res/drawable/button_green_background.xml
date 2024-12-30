@@ -1,0 +1,6 @@
+<!-- res/drawable/button_green_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/green" /> <!-- Defina a cor verde desejada -->
+    <corners android:radius="8dp" /> <!-- Opcional: define bordas arredondadas -->
+</shape>

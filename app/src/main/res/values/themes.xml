@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Project1732" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+<!--        <item name="colorPrimary">@color/primary_color</item>-->
+<!--        <item name="colorSecondary">@color/secondary_color</item>-->
+    </style>
+
+    <style name="Theme.Project1732" parent="Base.Theme.Project1732" >
+        <item name="android:windowTranslucentNavigation">true</item>
+
+    </style>
+
+    <style name="ButtonSquare" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+
+    <!--    SearchAddressFragment-->
+    <style name="ButtonCustom">
+        <item name="android:textColor">@color/black1</item>
+        <item name="android:fontFamily">@font/avenir_ltstd_heavy</item>
+        <item name="android:height">60dp</item>
+        <item name="android:background">@drawable/bg_button</item>
+    </style>
+
+
+
+</resources>

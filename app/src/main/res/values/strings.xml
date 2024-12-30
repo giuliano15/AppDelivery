@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Rapidin Delivery</string>
+    <string name="action_settings">Settings</string>
+    <string name="Cadastrar">Cadastrar\n</string>
+    <string name="editSenha">Senha</string>
+    <string name="editNome">Nome</string>
+    <string name="editEmail">Email</string>
+    <string name="tituloLogin">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="app_name_database">vai_cep_database</string>
+
+    <!--    SearchAddressFragment-->
+    <string name="label_address_empty_search_address_fragment">Nenhum endereço encontrado\ncom o cep digitado.</string>
+    <string name="label_enter_with_cep_search_address_fragment">Digite o CEP para obter o endereço</string>
+    <string name="label_cep_search_address_fragment">Digite o cep aqui</string>
+    <string name="text_button_save_search_address_fragment">Salvar</string>
+</resources>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "165753480098",
+    "firebase_url": "https://projetofood173-default-rtdb.firebaseio.com",
+    "project_id": "projetofood173",
+    "storage_bucket": "projetofood173.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165753480098:android:e957e63ad5fc872ba388fb",
+        "android_client_info": {
+          "package_name": "com.example.project1732"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWgGz3FHax0XSt5i6G5a9snj4RLm4_JuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

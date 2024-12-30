@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">-->
+
+<!--        &lt;!&ndash; Cor da borda em diferentes estados (focado e não focado) &ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="boxStrokeColor">@color/text_input_box_stroke_color</item>&ndash;&gt;-->
+
+<!--        <item name="boxStrokeColor">@color/white</item>-->
+
+<!--        <item name="hintTextColor">@color/white</item>-->
+
+<!--        &lt;!&ndash; Cor do background da caixa &ndash;&gt;-->
+<!--        <item name="boxBackgroundColor">@android:color/transparent</item>-->
+<!--        &lt;!&ndash; Cor do texto dentro do campo quando focado e não focado &ndash;&gt;-->
+<!--        <item name="android:textColor">@color/white</item>-->
+<!--    </style>-->
+
+<!--     Estilo para TextInputLayout-->
+<!--    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">-->
+<!--        &lt;!&ndash; Cor da borda quando o campo está ativo &ndash;&gt;-->
+<!--        <item name="boxStrokeColor">@color/white</item>-->
+<!--        &lt;!&ndash; Cor do hint (quando o campo está ativo) &ndash;&gt;-->
+<!--        <item name="hintTextColor">@color/white</item>-->
+<!--        &lt;!&ndash; Cor da borda quando o campo não está ativo &ndash;&gt;-->
+<!--        <item name="boxBackgroundColor">@android:color/transparent</item>-->
+<!--    </style>-->
+
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <!-- Define a cor da borda usando uma lista de estados -->
+        <item name="boxStrokeColor">@color/white</item>
+
+        <!-- Para evitar a mudança de cor ao focar -->
+        <item name="strokeColor">@color/white</item>
+
+        <!-- Cor do hint (texto de dica) -->
+        <item name="hintTextColor">@color/white</item>
+
+        <!-- Cor do background da caixa -->
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+
+        <!-- Cor do texto dentro do campo -->
+        <item name="android:textColorHint">@color/white</item>
+
+
+    </style>
+
+
+    <!-- Estilo para TextInputEditText -->
+    <style name="CustomTextInputEditText" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+
+        <!-- Cor do hint quando o campo não está ativo -->
+        <item name="android:textColorHint">@color/white</item>
+        <!-- Cor do texto digitado  -->
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+</resources>

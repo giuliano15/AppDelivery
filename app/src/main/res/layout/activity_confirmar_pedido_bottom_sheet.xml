@@ -1,0 +1,296 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Revise seu Pedido"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Título "Entregar no endereço" -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entregar no endereço"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- EditText para inserir o endereço -->
+        <EditText
+            android:id="@+id/edtEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:hint="Digite o endereço"
+            android:padding="12dp"
+            android:background="@drawable/bg_edit_text"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Título "Resumo de valores" -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resumo de valores"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Layout horizontal para subtotal -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <!-- TextView para "Subtotal" -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Subtotal"
+                android:textSize="16sp"/>
+
+            <!-- TextView vazio para receber o valor do subtotal -->
+            <TextView
+                android:id="@+id/txtSubtotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <!-- TextView para "Taxa de entrega" -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Taxa de entrega"
+                android:textSize="16sp"/>
+
+            <!-- TextView vazio para receber o valor da taxa de entrega -->
+            <TextView
+                android:id="@+id/txtTaxaEntrega"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <!-- Layout horizontal para total -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <!-- TextView para "Total" -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Total"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <!-- TextView vazio para receber o valor do total -->
+            <TextView
+                android:id="@+id/txtTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- Título "Observação" -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Observação"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- EditText para inserir observação -->
+        <EditText
+            android:id="@+id/edtObservacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escreva sua observação"
+            android:minHeight="80dp"
+            android:padding="12dp"
+            android:background="@drawable/bg_edit_text"
+            android:gravity="top"/>
+
+        <Button
+            android:id="@+id/btnEnviarPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="20sp"
+            android:background="@drawable/bg_edit_text"
+            android:text="Fazer Pedido" />
+    </LinearLayout>
+</ScrollView>
+
+    <!--<LinearLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="16dp">-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:text="Revise seu Pedido"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginBottom="8dp"/>-->
+
+<!--    &lt;!&ndash; Título "Entregar no endereço" &ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Entregar no endereço"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginBottom="8dp"/>-->
+
+<!--    &lt;!&ndash; EditText para inserir o endereço &ndash;&gt;-->
+<!--    <EditText-->
+<!--        android:id="@+id/edtEndereco"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="14dp"-->
+<!--        android:hint="Digite o endereço"-->
+<!--        android:padding="12dp"-->
+<!--        android:background="@drawable/bg_edit_text"-->
+<!--        android:layout_marginBottom="16dp"/>-->
+
+<!--    &lt;!&ndash; Título "Resumo de valores" &ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Resumo de valores"-->
+<!--        android:textSize="18sp"-->
+<!--        android:layout_marginBottom="8dp"/>-->
+
+<!--    &lt;!&ndash; Layout horizontal para subtotal &ndash;&gt;-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginBottom="8dp">-->
+
+<!--        &lt;!&ndash; TextView para "Subtotal" &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Subtotal"-->
+<!--            android:textSize="16sp"/>-->
+
+<!--        &lt;!&ndash; TextView vazio para receber o valor do subtotal &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:id="@+id/txtSubtotal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="16sp"/>-->
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginBottom="8dp">-->
+
+<!--        &lt;!&ndash; TextView para "Subtotal" &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Taxa de entrega"-->
+<!--            android:textSize="16sp"/>-->
+
+<!--        &lt;!&ndash; TextView vazio para receber o valor do subtotal &ndash;&gt;-->
+<!--        <TextView-->
+<!--           android:id="@+id/txtTaxaEntrega"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="16sp"/>-->
+<!--    </LinearLayout>-->
+
+<!--    &lt;!&ndash; Layout horizontal para total &ndash;&gt;-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginBottom="16dp">-->
+
+<!--        &lt;!&ndash; TextView para "Total" &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Total"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="bold"/>-->
+
+<!--        &lt;!&ndash; TextView vazio para receber o valor do total &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:id="@+id/txtTotal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="bold"/>-->
+<!--    </LinearLayout>-->
+
+<!--    &lt;!&ndash; Título "Observação" &ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Observação"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginBottom="8dp"/>-->
+
+<!--    &lt;!&ndash; EditText para inserir observação &ndash;&gt;-->
+<!--    <EditText-->
+<!--        android:id="@+id/edtObservacao"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Escreva sua observação"-->
+<!--        android:minHeight="80dp"-->
+<!--        android:padding="12dp"-->
+<!--        android:background="@drawable/bg_edit_text"-->
+<!--        android:gravity="top"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnEnviarPedido"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:background="@drawable/bg_edit_text"-->
+<!--        android:text="Fazer Pedido" />-->
+<!--</LinearLayout>-->
